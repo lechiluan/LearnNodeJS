@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon --inspect index.js"
   },
-  "author": "",
+  "author": "luanlc",
   "license": "ISC",
-  "description": "",
+  "description": "Learn node JS at F8",
   "dependencies": {
     "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
   }
 }
