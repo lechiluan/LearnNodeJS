@@ -1,17 +1,18 @@
 {
   "name": "learnnodejs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemon --inspect index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon --inspect src/index.js"
   },
   "author": "luanlc",
   "license": "ISC",
   "description": "Learn node JS at F8",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "express-handlebars": "^8.0.1"
   },
   "devDependencies": {
     "morgan": "^1.10.0",
